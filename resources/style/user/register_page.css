@@ -1,0 +1,45 @@
+    /*
+    |--------------------------------------------------------------------------
+    | View 所屬 User資料夾 css樣式文件
+    |--------------------------------------------------------------------------
+    */
+
+
+#confirm_btn{
+    margin-top: 20px;
+    margin-left: calc(100% - 150px);
+    width: 150px;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .content{
+        border:1px solid gray;
+        border-radius: 5px;
+    }   
+}
+
+@media (min-width: 767.98px) {
+    .hint_label{
+        margin-left: 6%;
+    }
+
+    .content{
+        border:1px solid gray;
+        margin:0px 6%;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hint_label{
+        margin-left: 20%;
+    }
+
+    .content{
+        border:1px solid gray;
+        margin:0px 20%;
+        border-radius: 5px;
+    }
+}

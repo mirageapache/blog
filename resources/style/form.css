@@ -1,0 +1,58 @@
+    /*
+    |--------------------------------------------------------------------------
+    | 所有包含Form表單頁面共用 css樣式文件
+    |--------------------------------------------------------------------------
+    | 有使用的頁面
+    | register_page
+    |
+    */
+
+.form_div{
+
+}
+
+.form_div>span{
+    text-align: left;
+    padding:15px;
+}
+
+.form_div>input{
+    margin: 15px 0px;
+}
+
+/* 提示字 */
+.hint_label{
+    font-size: 14px;
+    color: gray;
+}
+
+/* input上方標籤的label */
+.form_label{
+    /*font-size: 18px;*/
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+/* 錯誤訊息提示 */
+.error_hint{
+    color: red;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+/* 必填星號 */
+.red_star{
+    color: red;
+}
+
+/* 綠色input */
+.focus_green:focus {
+    border:1px solid rgb(20, 220, 20);
+    box-shadow: rgba(50, 250, 50, 1) 0px 0px 5px 3px;
+}
+
+/* 紅色input */
+.focus_red:focus {
+    border:1px solid rgb(210, 80, 80);
+    box-shadow: rgba(250, 50, 50, 0.5) 0px 0px 5px 3px;
+}
